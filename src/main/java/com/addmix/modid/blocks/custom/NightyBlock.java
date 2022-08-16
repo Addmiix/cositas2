@@ -4,22 +4,18 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
-import java.util.Properties;
-
-public class JumpyBlock extends Block{
-    public JumpyBlock (Properties properties){
+public class NightyBlock extends Block{
+    public NightyBlock(Properties properties){
         super(properties);
     }
 
@@ -35,7 +31,7 @@ public class JumpyBlock extends Block{
     @Override
     public void stepOn(Level level, BlockPos blockPos, BlockState state, Entity entity) {
         if (entity instanceof LivingEntity livingEntity){
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.JUMP, 20));
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 2000));
         }
 
 

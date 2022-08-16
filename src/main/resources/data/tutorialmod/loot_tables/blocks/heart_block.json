@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "tutorialmod:endstone_zircon_ore"
+              "name": "tutorialmod:heart_block"
             },
             {
               "type": "minecraft:item",
@@ -34,8 +34,8 @@
                   "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "min": 2.0,
-                    "max": 5.0
+                    "min": 6.0,
+                    "max": 10.0
                   },
                   "add": false
                 },
@@ -48,7 +48,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tutorialmod:raw_zircon"
+              "name": "tutorialmod:corazon"
             }
           ]
         }

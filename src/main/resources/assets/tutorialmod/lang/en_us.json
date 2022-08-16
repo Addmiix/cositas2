@@ -1,0 +1,23 @@
+{
+  "item.tutorialmod.zircon": "Zircon",
+  "item.tutorialmod.raw_zircon": "Raw_Zircon",
+  "item.tutorialmod.corazon": "Corazón",
+  "item.tutorialmod.intestino": "Intestino de mi bb ",
+  "item.tutorialmod.necronomicon": "Maximilian's necronomicon",
+  "item.tutorialmod.zircon_block": "zircon_block",
+  "item.tutorialmod.eight_ball": "Eight ball",
+
+
+  "itemGroup.cositas_hot": "Cositas Hot",
+
+
+
+  "block.tutorialmod.heart_block": " Cubito de corasones",
+  "block.tutorialmod.zircon_block": " Zircon block",
+  "block.tutorialmod.zircon_ore": " Zircon ore",
+  "block.tutorialmod.deepslate_zircon_ore": " Deepslate zircon ore",
+  "block.tutorialmod.netherrack_zircon_ore": " Netherrack zircon ore",
+  "block.tutorialmod.endstone_zircon_ore": " Endstone zircon ore",
+  "block.tutorialmod.jumpy_block": " Jumpy block",
+  "block.tutorialmod.nighty_block": " nighty block"
+}

@@ -1,6 +1,6 @@
 {
   "variants": {
-    "": { "model":  "tutorialmod:block/heart_block" }
+    "": { "model":  "tutorialmod:block/jumpy_block" }
   }
 
 

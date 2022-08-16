@@ -74,7 +74,7 @@ public class Tutorialmod
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
-
+ //hola
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents
